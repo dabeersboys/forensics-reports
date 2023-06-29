@@ -16,10 +16,8 @@ device_model = input("What is the modle of the device? ")
 extraction_type = input("What type of acquisition did you get? ")
     
 # Prompt the user to enter the filepath for the AXIOM Case Information text file    
-Magnet_file = input("Enter the filepath for your AXIOM Case Information text file here: ")
+Magnet_file = input("Drag and drop your AXIOM Case Information text file here and remove quotations: ")
 
-# Initialize variable
-Axiom_version = ""
 
 # Read the AXIOM Case Information text file and extract the version information
 with open(Magnet_file, "r") as file:

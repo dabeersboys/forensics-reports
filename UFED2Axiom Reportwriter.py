@@ -10,7 +10,7 @@ Evidence_Custodian = input("Who did you receive the evidence from? ")
 Evidence_Item = input("What is the Item number and name?")
 
 # Prompt the user to enter the filepath for the UFD file
-UFD_file = input("Enter the filepath for your UFD file here: ")
+UFD_file = input("Drag and drop your .UFD file here and remove the quotations: ")
 
 # Initialize variables
 extraction_date = ""
@@ -38,7 +38,7 @@ with open(UFD_file, "r") as file:
             print(f"Ignoring this line")
     
 # Prompt the user to enter the filepath for the AXIOM Case Information text file    
-Magnet_file = input("Enter the filepath for your AXIOM Case Information text file here: ")
+Magnet_file = input("Drag and drop your AXIOM Case Information text file here and remove quotations: ")
 
 # Initialize variable
 Axiom_version = ""
